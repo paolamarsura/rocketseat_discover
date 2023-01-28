@@ -132,18 +132,4 @@ const animals = [ "Lion", "Monkey" ], para acessar esses valores usamos a posiç
 
 Para descobrirmos o número de posições de um vetor qualquer, podemos utilizar a propriedade length, por exemplo: animals.length.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */

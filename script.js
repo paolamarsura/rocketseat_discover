@@ -1,1 +1,16 @@
-console.log(" Bem vindos ao starter");
+// declaration - declaração da função
+// function statement
+
+function createPhrases() {
+    console.log("Estudar é muito bom")
+    console.log("Paciência é persistência")
+    console.log("Revisão é a mãe do aprendizado")
+}
+
+// executar a função
+// rodar, chamar, invocar 
+// execute, run, call, invoke
+
+createPhrases()
+
+console.log("fim do programa")
