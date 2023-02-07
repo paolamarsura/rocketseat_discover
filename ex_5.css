@@ -1,0 +1,20 @@
+/* CRIE O FOOTER DE UM SITE QUE CONTENHA A DATA DE CRIAÇÃO DO SITE. USANDO O FLEX, ALINHE O ELEMENTO DO FOOTER BEM AO MEIO. DEIXE UMA ALTURA DE 8REM PARA O FOOTER. O FOOTER DEVERÁ FICAR NO FINAL DA PÁGINA. */
+
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    background: gray;
+    color: white;
+    height: 8rem;
+    flex: 1;
+    display: flex;
+    align-items: center justify-content: center;
+}

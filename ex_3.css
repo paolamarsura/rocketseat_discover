@@ -1,0 +1,13 @@
+/* CRIE UMA GALERIA DE FOTOS ONDE TEREMOS 3 COLUNAS E 9 FOTOS, DEIXE ESPAÇO DE .8REM ENTRE OS ELEMENTOS DA GALERIA. */
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}

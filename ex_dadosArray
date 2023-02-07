@@ -62,9 +62,29 @@ function countAuthors() {
     for (let category of booksByCategory) {
         for (let book of category.books) {
             if (authors.indexOf(book.author) == -1) {
-                authors.push(book.title)
+                authors.push(book.author)
             }
         }
     }
+    console.log('Total de autores: ', authors.length)
+}
+
+countAuthors();
+
+// Mostrar livros do autor Augusto Cury
+
+function booksOfAuthor(author) {
+    let authors = [];
+
+    for (let category of booksByCategory) {
+        for (let book of category.books) {
+            if (book.authors === author) {
+                book.push(book.title)
+            }
+        }
+    }
+    console.log(`Livros do autor: ${author}: ${books.join(", ")}`)
 
 }
+
+booksOfAugustoCury('Augusto Cury')

@@ -1,0 +1,20 @@
+/* CRIE UM LAYOUT COM 2 COLUNAS UMA AO LADO DA OUTRA, A COLUNA DA ESQUERDA DEVERA TER 25% DE TAMANHO E A COLUNA DA DIREITA DEVERA OCUPAR TODO O ESPAÇO QUE SOBRA. FAÇA UMA SEPARAÇÃO DE 1REM ENTRE OS ELEMENTOS. */
+
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+aside,
+main {
+    border: 1px solid;
+    height: 95wh;
+}
+
+aside {
+    flex-basis: 25%;
+}
+
+main {
+    flex: 1;
+}
